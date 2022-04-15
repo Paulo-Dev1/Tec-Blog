@@ -1,0 +1,153 @@
+/*Limpar Formatações Padrão*/
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0px;
+    font-family: "trebuchet MS", Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(238, 238, 238);
+    
+    font-size: 16px;
+    
+    
+    
+}
+
+/*Layout parte superior*/
+
+.fundo-menu{
+    
+    
+    text-align: center;
+    padding: 20px;
+    
+    
+    background-color: rgb(255, 203, 92);
+}
+.titulo{
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+  
+}
+.titulo2{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+  
+}
+.itens-menu{
+    font-size: 18px;
+    margin: 10px;
+    color: white;
+    
+    font-weight: bold;
+    padding: 5px;
+
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.itens-menu:link:visited{
+    color: white;
+}
+
+.itens-menu:hover{
+    color: black;
+    background-color: white;
+}
+
+/* Partes dos Conteudos*/
+
+.principal{
+    
+    width: 920px;
+    margin: 0 auto;/* margin auto usa se para centralizar*/
+   padding: 20px;
+   
+    
+}
+
+
+
+.area-postagens{
+    width: 660px;
+    float: left;
+    
+}
+
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+.lado{
+    
+    float: right;
+    width: 240px;
+}
+
+.rodape{
+    clear: both;/* utilizado para colocar elemntos abaixo do float em sua linha normal*/
+    text-align: center;
+    background-color: rgb(133, 133, 133);
+    padding: 20px;
+    
+}
+
+
+
+/*Formatação de textos*/
+
+.titulo-conteudo{
+    color: rgb(255, 203, 92);
+    font-size: 30px;
+    
+}
+
+.leia-mais{
+    color: rgb(255, 203, 92);
+    
+}
+.leia-mais:hover{
+    text-decoration: underline;
+}
+
+.titulo-lado{
+    color: rgb(122, 122, 122);
+    background-color: rgb(221, 221, 221);
+    padding: 5px;
+
+}
+
+
+
+.data{
+    margin-top: -3px;
+    font-size: small;
+    margin-bottom: 20px;
+    
+}
+
+.recentes{
+    
+    font-size: 15px;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.postagem-lateral{
+    font-size: 14px;
+    padding: 10px;
+    
+}
+
+hr{
+    margin: 10px auto;
+}
